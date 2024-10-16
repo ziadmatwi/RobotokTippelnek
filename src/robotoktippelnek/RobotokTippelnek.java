@@ -59,6 +59,11 @@ public class RobotokTippelnek {
         System.out.println("A kitalálandó szám: " + szam2);
         System.out.println("Az 1. tipp: " + tipp);
         
+        if(tipp == szam2){
+            System.out.println("Elsőre sikerült eltalálni!");
+        }else{
+            
+        }
     }
     
 }
