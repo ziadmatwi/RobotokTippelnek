@@ -16,6 +16,22 @@ public class RobotokTippelnek {
         szam1 = (int)(Math.random() * 10) + 1;
         
         int tipp1, tipp2, tipp3;
+        /* Random osztály használattal: */
+        tipp1 = rnd.nextInt(1, 11);
+        tipp2 = rnd.nextInt(1, 11);
+        tipp3 = rnd.nextInt(1, 11);
+        
+        /* Math.random() használattal */
+        tipp1 = (int)(Math.random() * 10) + 1;
+        tipp2 = (int)(Math.random() * 10) + 1;
+        tipp3 = (int)(Math.random() * 10) + 1;
+
+        /* tippelések kiírása: */
+        System.out.println("A kitalálandó szám: " + szam1);
+        System.out.println("1. robot tippje: " + tipp1);
+        System.out.println("2. robot tippje: " + tipp2);
+        System.out.println("3. robot tippje: " + tipp3);
+
         
     }
     
