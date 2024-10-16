@@ -67,7 +67,13 @@ public class RobotokTippelnek {
             if(tipp == szam2){
                 System.out.println("Másodikra sikerült eltalálni!");
             }else{
-                
+                tipp = (int)(Math.random() * 10) + 1;
+                System.out.println("A 3. tipp: " + tipp);
+                if(tipp == szam2){
+                    System.out.println("Harmadikra sikerült eltalálni!");
+                }else{
+                    System.out.println("Nem siekrült háromból eltalálni!");
+                }
             }
         }
     }
