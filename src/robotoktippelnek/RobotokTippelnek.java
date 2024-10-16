@@ -50,6 +50,14 @@ public class RobotokTippelnek {
             System.out.println("Egyik robot sem találta el!");
         }
         
+        System.out.println("Egy robot tippelhet háromszor:");
+        /* az 1. tipp beállítása: */
+        int szam2 = (int)(Math.random() * 10) + 1;
+        int tipp = (int)(Math.random() * 10) + 1;
+
+        /* tippelések kiírása és vizsgálata: */
+        System.out.println("A kitalálandó szám: " + szam2);
+        System.out.println("Az 1. tipp: " + tipp);
         
     }
     
