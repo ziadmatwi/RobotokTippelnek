@@ -32,6 +32,24 @@ public class RobotokTippelnek {
         System.out.println("2. robot tippje: " + tipp2);
         System.out.println("3. robot tippje: " + tipp3);
 
+        /* tippelések vizsgálata: */
+        boolean voltTalalat = false;
+        if(tipp1 == szam1){
+            voltTalalat = true;
+            System.out.println("Az 1. robot eltalálta!");
+        }
+        if(tipp2 == szam1){
+            voltTalalat = true;
+            System.out.println("A 2. robot eltalálta!");
+        }
+        if(tipp3 == szam1){
+            voltTalalat = true;
+            System.out.println("A 3. robot eltalálta!");
+        }
+        if(!voltTalalat){
+            System.out.println("Egyik robot sem találta el!");
+        }
+        
         
     }
     
