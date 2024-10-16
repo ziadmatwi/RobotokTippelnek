@@ -1,4 +1,4 @@
-package robotoktippelnek;
+package konzol;
 
 import java.util.Random;
 
